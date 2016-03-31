@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aurelia-skeleton-navigation
 
 [![ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://zenhub.io)
@@ -145,3 +146,7 @@ The app will be exported into ```export``` directory preserving the directory st
 #### Configuration
 The configuration is done by ```bundles.json``` file.
 In addition, ```export.json``` file is available for including individual files.
+=======
+# aurelia-webpack-css
+A version of the Aurelia Skeleton compiled with Webpack utilizing PostCSS, CSSnext, and CSS Modules
+>>>>>>> a8faafc6a9ff4538d12954b5c9f7f16cc54e2cbe
