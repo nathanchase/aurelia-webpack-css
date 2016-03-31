@@ -1,0 +1,14 @@
+﻿<template>
+    <section>
+        <h2>${heading}</h2>
+        <div class="row au-stagger">
+              
+            <div repeat.for="item of identityInApi">
+                <h3>${item.type} : ${item.value}</h3>
+                
+                
+            </div>
+
+        </div>
+    </section>
+</template>
