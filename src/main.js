@@ -12,7 +12,6 @@ bootstrap(function(aurelia) {
     .plugin('aurelia-auth', (baseConfig)=>{   //the name of plugin becomes 'paulvanbladel/aurelia-auth'
         baseConfig.configure(config);
     })
-    .plugin('aurelia-css-modules-loader');
-
+    .plugin('aurelia-binding-loader');
   aurelia.start().then(() => aurelia.setRoot('app', document.body));
 });

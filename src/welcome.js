@@ -26,6 +26,9 @@ export class Welcome {
       return confirm('Are you sure you want to leave?');
     }
   }
+
+  attached() {
+  }
 }
 
 export class UpperValueConverter {
