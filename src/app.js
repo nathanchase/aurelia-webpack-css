@@ -1,5 +1,8 @@
 import {inject} from 'aurelia-framework';
 import {FetchConfig} from 'aurelia-auth';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/font-awesome/css/font-awesome.css';
+import styles from '../styles/styles.css';
 
 @inject(FetchConfig) 
 export class App {
