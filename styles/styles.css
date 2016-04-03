@@ -6,10 +6,11 @@ body {
   margin: 0;
 }
 
+/* An example of PostCSS/cssnext usage */
 .massiveandred {
     font-size: 73px;
     background-color: var(--mainColor);
-    color: color(blue alpha(-10%));
+    color: color(blue alpha(-10%)); 
 }
 
 .splash {

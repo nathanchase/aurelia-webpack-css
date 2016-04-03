@@ -1,5 +1,5 @@
 //import {computedFrom} from 'aurelia-framework';
-import styles from '../styles/styles.css';
+import styles from '../styles/styles.css'; // this will get processed as a CSS Module and run through PostCSS and cssnext
 
 export class Welcome {
     
@@ -28,10 +28,6 @@ export class Welcome {
       return confirm('Are you sure you want to leave?');
     }
   }  
-
-  attached() {
-      console.log(exports);
-  }
 }
 
 export class UpperValueConverter {
